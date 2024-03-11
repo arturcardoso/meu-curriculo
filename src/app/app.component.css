@@ -96,8 +96,50 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: white
+    color: #03a9f4
 }
+
+.contactInfo ul li span {
+    color: white;
+    font-weight: 300
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2) {
+    color: white;
+    font-weight: 500;
+}
+.contactInfo.education h4 {
+    color: white;
+    font-weight: 300;
+}
+.contactInfo.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+
+
+
+
 
 
 /* === === === === === */
